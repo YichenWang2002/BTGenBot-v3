@@ -1,0 +1,224 @@
+{
+  "scenarios": [
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx45_seed0_robots3.yaml",
+      "dataset_index": 45,
+      "seed": 0,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx45_seed1_robots3.yaml",
+      "dataset_index": 45,
+      "seed": 1,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx45_seed2_robots3.yaml",
+      "dataset_index": 45,
+      "seed": 2,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx13_seed0_robots3.yaml",
+      "dataset_index": 13,
+      "seed": 0,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx13_seed1_robots3.yaml",
+      "dataset_index": 13,
+      "seed": 1,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx13_seed2_robots3.yaml",
+      "dataset_index": 13,
+      "seed": 2,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx265_seed0_robots3.yaml",
+      "dataset_index": 265,
+      "seed": 0,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx265_seed1_robots3.yaml",
+      "dataset_index": 265,
+      "seed": 1,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx265_seed2_robots3.yaml",
+      "dataset_index": 265,
+      "seed": 2,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx225_seed0_robots3.yaml",
+      "dataset_index": 225,
+      "seed": 0,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx225_seed1_robots3.yaml",
+      "dataset_index": 225,
+      "seed": 1,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx225_seed2_robots3.yaml",
+      "dataset_index": 225,
+      "seed": 2,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx234_seed0_robots3.yaml",
+      "dataset_index": 234,
+      "seed": 0,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx234_seed1_robots3.yaml",
+      "dataset_index": 234,
+      "seed": 1,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx234_seed2_robots3.yaml",
+      "dataset_index": 234,
+      "seed": 2,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx8_seed0_robots3.yaml",
+      "dataset_index": 8,
+      "seed": 0,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx8_seed1_robots3.yaml",
+      "dataset_index": 8,
+      "seed": 1,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx8_seed2_robots3.yaml",
+      "dataset_index": 8,
+      "seed": 2,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx522_seed0_robots3.yaml",
+      "dataset_index": 522,
+      "seed": 0,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    },
+    {
+      "scenario_path": "configs/generated/pickplace_hard/pickplace_hard_idx522_seed1_robots3.yaml",
+      "dataset_index": 522,
+      "seed": 1,
+      "num_robots": 3,
+      "num_objects": 4,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_pickplace",
+      "pick_fail_prob": 0.15,
+      "object_unavailable_prob": 0.1
+    }
+  ]
+}

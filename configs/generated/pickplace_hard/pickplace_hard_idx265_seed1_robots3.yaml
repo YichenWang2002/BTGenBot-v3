@@ -1,0 +1,186 @@
+name: pickplace_hard_idx265_seed1_robots3
+source:
+  dataset_index: 265
+  task_family: navigation_pickplace
+  input_summary: The behavior tree outlines a sequence of actions for a robot to place
+    an object. The robot first obtains the pose of the object and then determines
+    where to pla
+map:
+  width: 14
+  height: 10
+  obstacles:
+  - - 6
+    - 0
+  - - 6
+    - 9
+robots:
+  robot_0:
+    start:
+    - 1
+    - 1
+    goal: null
+    carrying_object: null
+  robot_1:
+    start:
+    - 1
+    - 4
+    goal: null
+    carrying_object: null
+  robot_2:
+    start:
+    - 1
+    - 7
+    goal: null
+    carrying_object: null
+objects:
+  obj_0:
+    position:
+    - 10
+    - 1
+    target_position:
+    - 12
+    - 1
+    held_by: null
+    status: available
+  obj_1:
+    position:
+    - 10
+    - 4
+    target_position:
+    - 12
+    - 4
+    held_by: null
+    status: unavailable
+  obj_2:
+    position:
+    - 10
+    - 7
+    target_position:
+    - 12
+    - 7
+    held_by: null
+    status: available
+  obj_3:
+    position:
+    - 10
+    - 2
+    target_position:
+    - 12
+    - 2
+    held_by: null
+    status: available
+zones:
+  pickup_zones:
+    pickup_zone_0:
+      cells:
+      - - 9
+        - 1
+      - - 10
+        - 1
+      - - 11
+        - 1
+      - - 9
+        - 4
+      - - 10
+        - 4
+      - - 11
+        - 4
+      - - 9
+        - 7
+      - - 10
+        - 7
+      - - 11
+        - 7
+      - - 9
+        - 2
+      - - 10
+        - 2
+      - - 11
+        - 2
+  drop_zones:
+    drop_zone_0:
+      cells:
+      - - 12
+        - 1
+      - - 13
+        - 1
+      - - 12
+        - 4
+      - - 13
+        - 4
+      - - 12
+        - 7
+      - - 13
+        - 7
+      - - 12
+        - 2
+      - - 13
+        - 2
+pickplace:
+  enabled: true
+  pick_fail_prob: 0.15
+  place_fail_prob: 0.05
+  object_temporarily_unavailable_prob: 0.1
+  lock_ttl: 8
+  allow_reassignment: true
+  seed: 266
+  tasks:
+  - task_id: task_obj_0
+    object_id: obj_0
+    pickup_position:
+    - 10
+    - 1
+    drop_position:
+    - 12
+    - 1
+    assigned_robot: robot_0
+    status: assigned
+    attempts: 0
+  - task_id: task_obj_1
+    object_id: obj_1
+    pickup_position:
+    - 10
+    - 4
+    drop_position:
+    - 12
+    - 4
+    assigned_robot: robot_1
+    status: assigned
+    attempts: 0
+  - task_id: task_obj_2
+    object_id: obj_2
+    pickup_position:
+    - 10
+    - 7
+    drop_position:
+    - 12
+    - 7
+    assigned_robot: robot_2
+    status: assigned
+    attempts: 0
+  - task_id: task_obj_3
+    object_id: obj_3
+    pickup_position:
+    - 10
+    - 2
+    drop_position:
+    - 12
+    - 2
+    assigned_robot: robot_0
+    status: assigned
+    attempts: 0
+task:
+  type: navigation_pickplace
+  assignment_strategy: nearest_robot
+  baseline_type: centralized_rule_multi_robot_pickplace
+  assignments:
+    robot_0:
+    - task_obj_0
+    - task_obj_3
+    robot_1:
+    - task_obj_1
+    robot_2:
+    - task_obj_2
+centralized_rule: true
+max_steps: 200
+render: false

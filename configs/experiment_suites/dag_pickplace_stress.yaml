@@ -1,0 +1,25 @@
+name: dag_pickplace_stress
+scenario_manifest: configs/generated/dag_pickplace/manifest.json
+methods:
+  - dag_enabled_centralized
+  - ignore_dag_centralized
+  - dag_enabled_without_approach_lock
+  - no_dag_naive
+  - topological_sequential_baseline
+dependency_modes:
+  - basic
+  - cross_object
+  - chain
+  - gate
+max_scenarios: 10
+output_dir: results/dag_pickplace_stress
+topological_max_steps_multiplier: 3
+coordination:
+  enable_cell_reservation: true
+  enable_edge_reservation: true
+  enable_resource_lock: true
+  enable_recovery_lock: true
+  enable_approach_zone_lock: true
+  approach_radius: 1
+  max_wait_ticks: 3
+  reassignment_wait_ticks: 8

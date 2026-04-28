@@ -1,0 +1,67 @@
+name: llm_repair_small
+output_dir: results/llm_repair_small_openai_compatible
+max_iters: 3
+methods:
+- llm_only_multi_robot
+- centralized_rule_multi_bt
+scenarios:
+- path: configs/generated/nav_easy/nav_easy_idx124_seed0_robots3.yaml
+  scenario_family: nav
+- path: configs/generated/nav_easy/nav_easy_idx124_seed1_robots3.yaml
+  scenario_family: nav
+- path: configs/generated/nav_easy/nav_easy_idx124_seed2_robots3.yaml
+  scenario_family: nav
+- path: configs/generated/nav_easy/nav_easy_idx443_seed0_robots3.yaml
+  scenario_family: nav
+- path: configs/generated/nav_easy/nav_easy_idx443_seed1_robots3.yaml
+  scenario_family: nav
+- path: configs/generated/nav_easy/nav_easy_idx443_seed2_robots3.yaml
+  scenario_family: nav
+- path: configs/generated/nav_easy/nav_easy_idx133_seed0_robots3.yaml
+  scenario_family: nav
+- path: configs/generated/nav_easy/nav_easy_idx133_seed1_robots3.yaml
+  scenario_family: nav
+- path: configs/generated/nav_easy/nav_easy_idx133_seed2_robots3.yaml
+  scenario_family: nav
+- path: configs/generated/nav_easy/nav_easy_idx161_seed0_robots3.yaml
+  scenario_family: nav
+- path: configs/generated/recovery_medium/recovery_medium_idx184_seed0_robots3.yaml
+  scenario_family: recovery
+- path: configs/generated/recovery_medium/recovery_medium_idx184_seed1_robots3.yaml
+  scenario_family: recovery
+- path: configs/generated/recovery_medium/recovery_medium_idx184_seed2_robots3.yaml
+  scenario_family: recovery
+- path: configs/generated/recovery_medium/recovery_medium_idx71_seed0_robots3.yaml
+  scenario_family: recovery
+- path: configs/generated/recovery_medium/recovery_medium_idx71_seed1_robots3.yaml
+  scenario_family: recovery
+- path: configs/generated/recovery_medium/recovery_medium_idx71_seed2_robots3.yaml
+  scenario_family: recovery
+- path: configs/generated/recovery_medium/recovery_medium_idx260_seed0_robots3.yaml
+  scenario_family: recovery
+- path: configs/generated/recovery_medium/recovery_medium_idx260_seed1_robots3.yaml
+  scenario_family: recovery
+- path: configs/generated/recovery_medium/recovery_medium_idx260_seed2_robots3.yaml
+  scenario_family: recovery
+- path: configs/generated/recovery_medium/recovery_medium_idx316_seed0_robots3.yaml
+  scenario_family: recovery
+- path: configs/generated/pickplace_hard/pickplace_hard_idx45_seed0_robots3.yaml
+  scenario_family: pickplace
+- path: configs/generated/pickplace_hard/pickplace_hard_idx45_seed1_robots3.yaml
+  scenario_family: pickplace
+- path: configs/generated/pickplace_hard/pickplace_hard_idx45_seed2_robots3.yaml
+  scenario_family: pickplace
+- path: configs/generated/pickplace_hard/pickplace_hard_idx13_seed0_robots3.yaml
+  scenario_family: pickplace
+- path: configs/generated/pickplace_hard/pickplace_hard_idx13_seed1_robots3.yaml
+  scenario_family: pickplace
+- path: configs/generated/pickplace_hard/pickplace_hard_idx13_seed2_robots3.yaml
+  scenario_family: pickplace
+- path: configs/generated/pickplace_hard/pickplace_hard_idx265_seed0_robots3.yaml
+  scenario_family: pickplace
+- path: configs/generated/pickplace_hard/pickplace_hard_idx265_seed1_robots3.yaml
+  scenario_family: pickplace
+- path: configs/generated/pickplace_hard/pickplace_hard_idx265_seed2_robots3.yaml
+  scenario_family: pickplace
+- path: configs/generated/pickplace_hard/pickplace_hard_idx225_seed0_robots3.yaml
+  scenario_family: pickplace

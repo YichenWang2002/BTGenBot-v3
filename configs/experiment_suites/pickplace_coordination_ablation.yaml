@@ -1,0 +1,15 @@
+name: pickplace_coordination_ablation
+scenario_manifest: configs/generated/pickplace_hard/manifest.json
+methods:
+  - naive_multi_robot_pickplace
+  - centralized_rule_multi_robot_pickplace
+  - centralized_rule_with_approach_lock_pickplace
+  - centralized_rule_with_approach_and_corridor_lock_pickplace
+max_scenarios: 10
+output_dir: results/pickplace_coordination_ablation
+summary_style: coordination_ablation
+coordination:
+  enable_approach_zone_lock: false
+  approach_radius: 1
+  enable_corridor_lock: false
+  corridor_cells: []

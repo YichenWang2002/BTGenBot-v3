@@ -1,0 +1,8 @@
+name: nav_smoke
+scenario_manifest: configs/generated/nav_easy/manifest.json
+methods:
+  - single_robot_sequential
+  - naive_multi_robot
+  - centralized_rule_multi_robot
+max_scenarios: 5
+output_dir: results/nav_smoke

@@ -1,0 +1,35 @@
+# Build artifacts
+**/build
+**/install
+**/log
+
+# IDE
+**/.vscode
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+*.egg
+
+# Claude Code
+.claude/
+
+# Graphify
+graphify-out/
+
+# Project outputs
+results/
+runs/
+
+# Paper PDFs
+BTGenBot.pdf
+BTGenBot-2.pdf
+
+# Legacy model weights (exceeds GitHub 100MB limit)
+lora_adapters/
+
+# Misc
+.codex

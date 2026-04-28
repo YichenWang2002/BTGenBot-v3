@@ -1,0 +1,11 @@
+name: safety_guarantor_pickplace_focus_deepseek
+output_dir: results/safety_guarantor_pickplace_focus_deepseek
+backend: openai-compatible
+methods:
+  - llm_only_multi_bt
+  - llm_rule_with_repair_no_approach
+  - llm_rule_with_repair_full
+families:
+  - name: pickplace
+    scenario_manifest: configs/generated/pickplace_hard/manifest.json
+    max_scenarios: 20

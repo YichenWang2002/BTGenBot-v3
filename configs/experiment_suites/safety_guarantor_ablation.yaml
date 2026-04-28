@@ -1,0 +1,19 @@
+name: safety_guarantor_ablation
+output_dir: results/safety_guarantor_ablation
+backend: mock
+methods:
+  - llm_only_multi_bt
+  - llm_static_critic_only
+  - llm_rule_no_repair
+  - llm_rule_with_repair_no_approach
+  - llm_rule_with_repair_full
+families:
+  - name: nav
+    scenario_manifest: configs/generated/nav_easy/manifest.json
+    max_scenarios: 10
+  - name: recovery
+    scenario_manifest: configs/generated/recovery_medium/manifest.json
+    max_scenarios: 10
+  - name: pickplace
+    scenario_manifest: configs/generated/pickplace_hard/manifest.json
+    max_scenarios: 10

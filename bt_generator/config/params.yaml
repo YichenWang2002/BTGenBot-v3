@@ -1,0 +1,16 @@
+# SSH connection parameters
+host: "HOST_NAME"
+username: "USERNAME"
+password: "PASSWORD"
+
+# Insert here your local and remote directories for the behavior tree file
+tree_name: "main_tree.xml"
+local_dir: ""
+remote_dir: ""
+
+# Insert here your HuggingFace access token
+hf_token: "HF_ACCESS_TOKEN"
+
+# Context used by the model
+context: >-
+  <<SYS>> You will be provided a summary of a task performed by a behavior tree, and your objective is to express this behavior tree in XML format.\n <</SYS>>

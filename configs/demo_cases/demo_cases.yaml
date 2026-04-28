@@ -1,0 +1,30 @@
+cases:
+  - id: conflict_crossing_no_rule
+    scenario: configs/scenarios/demo_conflict_crossing.yaml
+    centralized_rule: false
+    fps: 2
+    description: 展示不开 centralized rule 时的路径冲突。
+
+  - id: conflict_crossing_rule
+    scenario: configs/scenarios/demo_conflict_crossing.yaml
+    centralized_rule: true
+    fps: 2
+    description: 展示 centralized rule 如何避免路径冲突。
+
+  - id: recovery_rule
+    scenario: configs/generated/recovery_medium/recovery_medium_idx184_seed0_robots3.yaml
+    centralized_rule: true
+    fps: 2
+    description: 展示 recovery_zone lock 和等待。
+
+  - id: pickplace_success_rule
+    scenario: configs/generated/pickplace_hard/pickplace_hard_idx45_seed0_robots3.yaml
+    centralized_rule: true
+    fps: 2
+    description: 展示 3 机器人 4 物体 pick/place 成功案例，collision=0，resource_conflict=0。
+
+  - id: pickplace_congested_rule
+    scenario: configs/generated/pickplace_hard/pickplace_hard_idx13_seed0_robots3.yaml
+    centralized_rule: true
+    fps: 2
+    description: 展示复杂 pick/place 中资源规则有效但路径拥堵仍存在。

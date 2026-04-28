@@ -1,0 +1,8 @@
+name: recovery_smoke
+scenario_manifest: configs/generated/recovery_medium/manifest.json
+methods:
+  - single_robot_recovery
+  - naive_multi_robot_recovery
+  - centralized_rule_multi_robot_recovery
+max_scenarios: 5
+output_dir: results/recovery_smoke

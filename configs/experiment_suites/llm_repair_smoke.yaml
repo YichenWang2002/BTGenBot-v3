@@ -1,0 +1,10 @@
+name: llm_repair_smoke
+scenarios:
+  - configs/generated/nav_easy/nav_easy_idx124_seed0_robots3.yaml
+  - configs/generated/recovery_medium/recovery_medium_idx184_seed0_robots3.yaml
+  - configs/generated/pickplace_hard/pickplace_hard_idx8_seed0_robots3.yaml
+methods:
+  - llm_only_multi_robot
+  - centralized_rule_multi_bt
+output_dir: results/llm_repair_smoke
+max_iters: 3

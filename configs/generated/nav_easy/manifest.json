@@ -1,0 +1,184 @@
+{
+  "scenarios": [
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx124_seed0_robots3.yaml",
+      "dataset_index": 124,
+      "seed": 0,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx124_seed1_robots3.yaml",
+      "dataset_index": 124,
+      "seed": 1,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx124_seed2_robots3.yaml",
+      "dataset_index": 124,
+      "seed": 2,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx443_seed0_robots3.yaml",
+      "dataset_index": 443,
+      "seed": 0,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx443_seed1_robots3.yaml",
+      "dataset_index": 443,
+      "seed": 1,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx443_seed2_robots3.yaml",
+      "dataset_index": 443,
+      "seed": 2,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx133_seed0_robots3.yaml",
+      "dataset_index": 133,
+      "seed": 0,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx133_seed1_robots3.yaml",
+      "dataset_index": 133,
+      "seed": 1,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx133_seed2_robots3.yaml",
+      "dataset_index": 133,
+      "seed": 2,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx161_seed0_robots3.yaml",
+      "dataset_index": 161,
+      "seed": 0,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx161_seed1_robots3.yaml",
+      "dataset_index": 161,
+      "seed": 1,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx161_seed2_robots3.yaml",
+      "dataset_index": 161,
+      "seed": 2,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx179_seed0_robots3.yaml",
+      "dataset_index": 179,
+      "seed": 0,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx179_seed1_robots3.yaml",
+      "dataset_index": 179,
+      "seed": 1,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx179_seed2_robots3.yaml",
+      "dataset_index": 179,
+      "seed": 2,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx355_seed0_robots3.yaml",
+      "dataset_index": 355,
+      "seed": 0,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx355_seed1_robots3.yaml",
+      "dataset_index": 355,
+      "seed": 1,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx355_seed2_robots3.yaml",
+      "dataset_index": 355,
+      "seed": 2,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx584_seed0_robots3.yaml",
+      "dataset_index": 584,
+      "seed": 0,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    },
+    {
+      "scenario_path": "configs/generated/nav_easy/nav_easy_idx584_seed1_robots3.yaml",
+      "dataset_index": 584,
+      "seed": 1,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot"
+    }
+  ]
+}

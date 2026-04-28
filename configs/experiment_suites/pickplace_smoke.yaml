@@ -1,0 +1,8 @@
+name: pickplace_smoke
+scenario_manifest: configs/generated/pickplace_hard/manifest.json
+methods:
+  - single_robot_pickplace
+  - naive_multi_robot_pickplace
+  - centralized_rule_multi_robot_pickplace
+max_scenarios: 5
+output_dir: results/pickplace_smoke

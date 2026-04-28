@@ -1,0 +1,40 @@
+name: llm_pickplace_approach_v2
+scenario_manifest: configs/generated/pickplace_hard/manifest.json
+output_dir: results/llm_pickplace_approach_v2
+max_iters: 3
+summary_style: llm_pickplace_approach_v2
+methods:
+  - centralized_rule_multi_bt
+  - centralized_rule_with_approach_radius_1
+method_configs:
+  centralized_rule_with_approach_radius_1:
+    coordination:
+      enable_cell_reservation: true
+      enable_edge_reservation: true
+      enable_resource_lock: true
+      enable_recovery_lock: true
+      enable_approach_zone_lock: true
+      approach_radius: 1
+      max_wait_ticks: 3
+      reassignment_wait_ticks: 8
+scenarios:
+  - path: configs/generated/pickplace_hard/pickplace_hard_idx45_seed0_robots3.yaml
+    scenario_family: pickplace
+  - path: configs/generated/pickplace_hard/pickplace_hard_idx45_seed1_robots3.yaml
+    scenario_family: pickplace
+  - path: configs/generated/pickplace_hard/pickplace_hard_idx45_seed2_robots3.yaml
+    scenario_family: pickplace
+  - path: configs/generated/pickplace_hard/pickplace_hard_idx13_seed0_robots3.yaml
+    scenario_family: pickplace
+  - path: configs/generated/pickplace_hard/pickplace_hard_idx13_seed1_robots3.yaml
+    scenario_family: pickplace
+  - path: configs/generated/pickplace_hard/pickplace_hard_idx13_seed2_robots3.yaml
+    scenario_family: pickplace
+  - path: configs/generated/pickplace_hard/pickplace_hard_idx265_seed0_robots3.yaml
+    scenario_family: pickplace
+  - path: configs/generated/pickplace_hard/pickplace_hard_idx265_seed1_robots3.yaml
+    scenario_family: pickplace
+  - path: configs/generated/pickplace_hard/pickplace_hard_idx265_seed2_robots3.yaml
+    scenario_family: pickplace
+  - path: configs/generated/pickplace_hard/pickplace_hard_idx225_seed0_robots3.yaml
+    scenario_family: pickplace

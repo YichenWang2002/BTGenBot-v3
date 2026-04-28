@@ -1,0 +1,10 @@
+name: dag_llm_mock_smoke
+scenario_manifest: configs/generated/dag_pickplace/manifest.json
+methods:
+  - llm_dag_without_dependency_prompt
+  - llm_dag_with_dependency_prompt
+  - llm_dag_with_dependency_prompt_and_centralized_rules
+max_scenarios: 2
+output_dir: results/dag_llm_mock_smoke
+max_iters: 3
+summary_style: dag_llm_mock

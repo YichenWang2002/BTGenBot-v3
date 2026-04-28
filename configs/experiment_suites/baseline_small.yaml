@@ -1,0 +1,35 @@
+name: baseline_small
+output_dir: results/baseline_small
+max_iters: 3
+families:
+  - name: nav
+    scenario_manifest: configs/generated/nav_easy/manifest.json
+    max_scenarios: 10
+    methods:
+      - single_robot_sequential
+      - naive_multi_robot
+      - llm_only_multi_robot
+      - centralized_rule_multi_bt
+      - centralized_without_repair
+      - prioritized_planning_multi_robot
+  - name: recovery
+    scenario_manifest: configs/generated/recovery_medium/manifest.json
+    max_scenarios: 10
+    methods:
+      - single_robot_sequential
+      - naive_multi_robot
+      - llm_only_multi_robot
+      - centralized_rule_multi_bt
+      - centralized_without_recovery_lock
+      - centralized_without_repair
+  - name: pickplace
+    scenario_manifest: configs/generated/pickplace_hard/manifest.json
+    max_scenarios: 10
+    methods:
+      - single_robot_sequential
+      - naive_multi_robot
+      - llm_only_multi_robot
+      - centralized_rule_multi_bt
+      - centralized_without_resource_lock
+      - centralized_without_repair
+      - prioritized_planning_multi_robot

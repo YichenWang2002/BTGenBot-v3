@@ -1,0 +1,204 @@
+{
+  "scenarios": [
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx184_seed0_robots3.yaml",
+      "dataset_index": 184,
+      "seed": 0,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx184_seed1_robots3.yaml",
+      "dataset_index": 184,
+      "seed": 1,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx184_seed2_robots3.yaml",
+      "dataset_index": 184,
+      "seed": 2,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx71_seed0_robots3.yaml",
+      "dataset_index": 71,
+      "seed": 0,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx71_seed1_robots3.yaml",
+      "dataset_index": 71,
+      "seed": 1,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx71_seed2_robots3.yaml",
+      "dataset_index": 71,
+      "seed": 2,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx260_seed0_robots3.yaml",
+      "dataset_index": 260,
+      "seed": 0,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx260_seed1_robots3.yaml",
+      "dataset_index": 260,
+      "seed": 1,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx260_seed2_robots3.yaml",
+      "dataset_index": 260,
+      "seed": 2,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx316_seed0_robots3.yaml",
+      "dataset_index": 316,
+      "seed": 0,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx316_seed1_robots3.yaml",
+      "dataset_index": 316,
+      "seed": 1,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx316_seed2_robots3.yaml",
+      "dataset_index": 316,
+      "seed": 2,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx101_seed0_robots3.yaml",
+      "dataset_index": 101,
+      "seed": 0,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx101_seed1_robots3.yaml",
+      "dataset_index": 101,
+      "seed": 1,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx101_seed2_robots3.yaml",
+      "dataset_index": 101,
+      "seed": 2,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx315_seed0_robots3.yaml",
+      "dataset_index": 315,
+      "seed": 0,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx315_seed1_robots3.yaml",
+      "dataset_index": 315,
+      "seed": 1,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx315_seed2_robots3.yaml",
+      "dataset_index": 315,
+      "seed": 2,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx549_seed0_robots3.yaml",
+      "dataset_index": 549,
+      "seed": 0,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    },
+    {
+      "scenario_path": "configs/generated/recovery_medium/recovery_medium_idx549_seed1_robots3.yaml",
+      "dataset_index": 549,
+      "seed": 1,
+      "num_robots": 3,
+      "num_waypoints": 3,
+      "assignment_strategy": "nearest_robot",
+      "baseline_type": "centralized_rule_multi_robot_recovery",
+      "block_prob": 0.35
+    }
+  ]
+}

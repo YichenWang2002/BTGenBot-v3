@@ -1,0 +1,17 @@
+name: pickplace_approach_radius_sweep
+scenario_manifest: configs/generated/pickplace_hard/manifest.json
+methods:
+  - centralized_rule_multi_robot_pickplace
+  - approach_radius_0
+  - approach_radius_1
+  - approach_radius_2
+max_scenarios: 10
+output_dir: results/pickplace_approach_radius_sweep
+summary_style: coordination_ablation
+coordination:
+  enable_approach_zone_lock: false
+  approach_radius: 1
+  max_wait_ticks: 3
+  reassignment_wait_ticks: 8
+  enable_corridor_lock: false
+  corridor_cells: []
